@@ -1,0 +1,24 @@
+Source: sphinxtesters
+Section: python
+Priority: optional
+Maintainer: Sandro Tosi <morph@debian.org>
+Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Build-Depends: debhelper-compat (= 9), dh-python,
+               python3-all,
+               python3-setuptools,
+               python3-sphinx,
+               python3-pytest,
+Standards-Version: 4.5.0
+Homepage: https://github.com/matthew-brett/sphinxtesters
+Vcs-Git: https://salsa.debian.org/python-team/modules/sphinxtesters.git
+Vcs-Browser: https://salsa.debian.org/python-team/modules/sphinxtesters
+
+Package: python3-sphinxtesters
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends},
+Recommends: ${python3:Recommends}
+Suggests: ${python3:Suggests}
+Description: utilities for testing Sphinx extensions - Python 3
+ Sphinxtesters is a collection of utilities useful to test Sphinx extensions.
+ .
+ This package contains the Python 3 version of sphinxtesters.

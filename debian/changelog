@@ -1,0 +1,37 @@
+sphinxtesters (0.2.3-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/copyright
+    - update upstream copyright years
+    - extend packaging copyright years
+  * debian/control
+    - bump Standards-Version to 4.5.0 (no changes needed)
+
+ -- Sandro Tosi <morph@debian.org>  Fri, 24 Jul 2020 23:47:22 -0400
+
+sphinxtesters (0.2.1-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
+
+  [ Sandro Tosi ]
+  * Drop python2 support; Closes: #938546
+
+ -- Sandro Tosi <morph@debian.org>  Tue, 12 Nov 2019 22:41:31 -0500
+
+sphinxtesters (0.2.1-1) unstable; urgency=medium
+
+  * New upstream release
+  * debian/control
+    - use python:Suggests for the py2 package
+    - bump Standards-Version to 4.2.1 (no changes needed)
+  * run tests via pytest, not nose
+
+ -- Sandro Tosi <morph@debian.org>  Sun, 16 Dec 2018 16:58:11 -0500
+
+sphinxtesters (0.1.1-1) unstable; urgency=low
+
+  * Initial release; Closes: #895724
+
+ -- Sandro Tosi <morph@debian.org>  Sun, 15 Apr 2018 16:40:19 +0000
+
