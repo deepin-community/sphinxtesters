@@ -1,8 +1,7 @@
 #! /usr/bin/make -f
 
 export PYBUILD_NAME=sphinxtesters
+export PYBUILD_TEST_ARGS=-k 'not test_bad_pagebuilder'
+
 %:
 	dh $@ --with python3 --buildsystem=pybuild
-
-override_dh_auto_test:
-	-dh_auto_test
