@@ -1,3 +1,54 @@
+sphinxtesters (0.2.3-5) unstable; urgency=medium
+
+  * orphan
+
+ -- Sandro Tosi <morph@debian.org>  Thu, 29 Feb 2024 01:55:25 -0500
+
+sphinxtesters (0.2.3-4) unstable; urgency=medium
+
+  * Revert attempt by a rogue developer to hijack this package
+
+ -- Sandro Tosi <morph@debian.org>  Sun, 14 Jan 2024 01:25:23 -0500
+
+sphinxtesters (0.2.3-3) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Debian Janitor ]
+  * Update standards version to 4.6.2, no changes needed.
+
+  [ Andreas Tille ]
+  * Set DPT maintainer
+  * Replace SafeConfigParser deprecated in Python3.12
+    Closes: #1058177
+  * Transparently skip test_bad_pagebuilder instead of ignoring test suite
+    errors
+
+ -- Andreas Tille <tille@debian.org>  Fri, 22 Dec 2023 08:13:34 +0100
+
+sphinxtesters (0.2.3-2) unstable; urgency=low
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from deprecated 9 to 12.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Ondřej Nový ]
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Sandro Tosi ]
+  * Use the new Debian Python Team contact name and address
+  * debian/control
+    - extend packaging copyright years
+  * debian/control
+    - bump Standards-Version to 4.6.1 (no changes needed)
+    - bump debhelper-compat to 13
+    - run wrap-and-sort
+
+ -- Sandro Tosi <morph@debian.org>  Mon, 06 Jun 2022 14:12:30 -0400
+
 sphinxtesters (0.2.3-1) unstable; urgency=medium
 
   * New upstream release
@@ -34,4 +85,3 @@ sphinxtesters (0.1.1-1) unstable; urgency=low
   * Initial release; Closes: #895724
 
  -- Sandro Tosi <morph@debian.org>  Sun, 15 Apr 2018 16:40:19 +0000
-
